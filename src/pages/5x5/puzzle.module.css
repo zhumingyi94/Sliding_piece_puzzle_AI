@@ -1,0 +1,54 @@
+.text {
+   color:#0f172a;
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 50px;
+   transform: translateX(2px);
+}
+
+.button_style {
+   padding: 8px 14px;
+   cursor: pointer;
+   border: 2px solid #0f172a;
+   box-shadow: 2px 2px 0 0 white, 4px 4px 0 0 #0f172a;
+   font-family: 'Courier New', Courier, monospace;
+   height: 100px;
+   width: 300px;
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.button_style:hover {
+   background-color: aliceblue;
+}
+
+.container {
+   margin-top: 80px;
+   display: flex;
+   justify-content: center; /* Center horizontally */
+   align-items: center; /* Center vertically */
+}
+
+.input_box {
+   margin-top: 100px;
+   position: relative;
+   display: flex;
+   justify-content: center;
+
+}
+
+.input_box input {
+   width: 600px;
+   height: 70px;
+   box-shadow: 2px 2px 0 0 white, 4px 4px 0 0 #0f172a;
+   font-size: 30px;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: bold;
+}
+
+.puzzle_container {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
