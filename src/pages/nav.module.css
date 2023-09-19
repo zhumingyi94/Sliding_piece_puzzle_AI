@@ -1,0 +1,37 @@
+.sth {
+   color:#0f172a;
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 100px;
+}
+
+.nav_button {
+   padding: 8px 14px;
+   cursor: pointer;
+   border: 2px solid #0f172a;
+   box-shadow: 2px 2px 0 0 white, 4px 4px 0 0 #0f172a;
+   font-family: 'Courier New', Courier, monospace;
+   height: 120px;
+   width: 300px;
+   font-size: 50px;
+}
+
+.nav_button:hover {
+   background-color: aliceblue;
+}
+
+.container {
+   margin-top: 100px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 70px;
+}
+
+.pageContainer {
+   display: flex;
+   justify-content: center; 
+   align-items: center; 
+   height: 80vh;
+ }
+ 
